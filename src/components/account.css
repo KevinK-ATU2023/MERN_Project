@@ -1,0 +1,55 @@
+* {
+    color: white;
+    text-align: center;
+}
+
+.sign_in_status_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sign_in_status {
+    backdrop-filter: blur(5.5px);
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 10px 14px 29px 0px rgba(0,0,0,0.64);
+
+    border: 1px solid transparent;
+    border-radius: 20px;
+
+    padding: 20px;
+    
+    position: relative;
+    top: 100px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.account_form_container {
+    backdrop-filter: blur(5.5px);
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 10px 14px 29px 0px rgba(0,0,0,0.64);
+
+    width: 380px;
+
+    border: 1px solid transparent;
+    border-radius: 20px;
+
+    position: relative;
+    top: 210px;
+}
+
+.account_form {
+    margin: 40px;
+    width: 300px
+}
+
+.account_status {
+    margin: 30px;
+}

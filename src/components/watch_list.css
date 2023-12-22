@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient(to bottom right, #0C134F, #5C469C);
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.poster_btn {
+    background-color: transparent; 
+    border: solid transparent; 
+    border-radius: 2\0px; 
+    cursor: pointer; 
+    padding: 0px; 
+    margin: 20px;
+}
+
+.poster {
+    /* display: flex; */
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.watchlist_message_container {
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 90%;
+    left: 39%;
+}
+
+.show {
+    display: flex;
+}
+
+.show_watchlist_message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.watchlist_message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    backdrop-filter: blur(5.5px);
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 10px 14px 29px 0px rgba(0,0,0,0.64);
+    border: solid transparent; 
+    border-radius: 20px; 
+
+    height: 60px;
+}
+
+.message {
+    text-align: center;
+    margin: 20px;
+}
